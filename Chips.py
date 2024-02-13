@@ -8,4 +8,9 @@ def get_chips_count():
     part_of_box = itog / weight_one
     print(f"Вам необходимо съесть {itog.__round__(2)} грамм, что равняется {part_of_box.__round__(2)} Пачки ")
 
-get_chips_count()
+#get_chips_count()
+
+s = ""
+while s != "нет":
+    get_chips_count()
+    s = input("Вы хотите продолжить?: ")
